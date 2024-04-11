@@ -1,0 +1,193 @@
+/*Color Variables*/
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #0A367F;
+    --tertiary-color: #2083FF;
+    --radius: 0.5rem;
+
+}
+
+header {
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+body {
+    margin-top: 2rem;
+    height: 100vh;
+    background-image: url(/img/background.jpeg);
+    color: var(--primary-color);
+    font-family: "Inter", sans-serif;
+    align-items: center;
+}
+
+.titulo {
+    font-size: 37px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form {
+    font-size: 20px;
+    margin-top: .5rem;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+    border-radius: var(--radius);
+    padding: 0.5rem 0rem;
+    border: 1px solid var(--primary-color);
+}
+
+input {
+    border: none;
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    border: none;
+}
+
+
+
+input::placeholder{
+    color: #aaaaaa;
+}
+ 
+
+/*rama dani*/
+
+.name {
+    font-size: 30px;
+    background-color:var(--secondary-color);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 1rem;   
+}
+
+.img1 {
+    width: 53px;
+    height: auto;
+    margin-right: .5rem;
+}
+
+.trof {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+}
+
+.club {
+    display: flex;
+    font-size: 30px;
+    background-color:var(--secondary-color);
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.img2 {
+    width: 53px;
+    height: auto;
+    margin-right: .5rem;
+}
+
+.solo {
+        font-size: 30px;
+        background-color:var(--secondary-color);
+        border-radius: 10px;
+        padding: 10px;
+        margin-left: 1rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+}
+
+.img3 {
+        width: 53px;
+        height: auto;
+        margin-right: .5rem;
+}
+
+.duo {
+        font-size: 30px;
+        background-color: var(--secondary-color);
+        border-radius: 10px;
+        padding: 10px;
+        margin-left: 1rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-right: 1rem;
+}
+
+.img4 {
+    width: 53px;
+    height: auto;
+    margin-right: .5rem;
+}
+
+.vs {
+    display: flex;
+    font-size: 30px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.vs3 {
+    display: flex;
+    font-size: 30px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img5 {
+    width: 53px;
+    height: auto;
+    margin-right: .5rem;
+}
+
+.dani {
+    display: flex;
+    font-size: 30px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.by {
+    display: flex;
+    font-size: 30px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
